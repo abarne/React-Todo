@@ -1,0 +1,15 @@
+.completed {
+	text-decoration: line-through;
+}
+
+.App {
+	justify-content: center;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: ;
+}
+
+.addButton {
+	margin-left: 0px;
+}
