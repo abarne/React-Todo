@@ -40,4 +40,6 @@ html {
 .listItem {
 	/* border: 1px solid black; */
 	width: 300px;
+
+	background-color: #c6bddf;
 }
