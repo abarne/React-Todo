@@ -22,7 +22,7 @@ export default function TodoInput(props) {
 			id="outlined-name"
 			label="Todo..."
 			className={classes.textField}
-			onChange={props.handleChange}
+			onChange={props.handleChanges}
 			// onSubmit={props.submitItem}
 			margin="normal"
 			variant="outlined"

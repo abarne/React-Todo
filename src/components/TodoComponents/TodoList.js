@@ -2,12 +2,17 @@
 // feel free to change this component.js into TodoList.js
 import React from 'react';
 import Todo from './Todo';
+import Button from '@material-ui/core/Button';
 
 const TodoList = (props) => {
 	return (
 		<div>
-			{props.listData.map((item) => <Todo item={item} toggleItem={props.toggleItem} />)}
-			<button onClick={props.clearTodo}>Clear Completed</button>
+			<div className="todoList">
+				{props.listData.map((item) => <Todo item={item} toggleItem={props.toggleItem} />)}
+			</div>
+			<Button variant="contained" color="primary" onClick={props.clearTodo}>
+				Clear Completed
+			</Button>
 		</div>
 	);
 };

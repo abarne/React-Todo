@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
 export default function AddButton(props) {
 	const classes = useStyles();
 	return (
-		<Fab size="small" color="secondary" aria-label="add" className={classes.margin}>
+		<Fab size="small" color="primary" aria-label="add" className={classes.margin}>
 			<AddIcon onClick={props.submitItem} />
 		</Fab>
 	);
