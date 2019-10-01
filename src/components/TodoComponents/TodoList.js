@@ -10,7 +10,7 @@ const TodoList = (props) => {
 			<div className="todoList">
 				{props.listData.map((item) => <Todo item={item} toggleItem={props.toggleItem} />)}
 			</div>
-			<Button variant="contained" color="primary" onClick={props.clearTodo}>
+			<Button size="large" variant="contained" color="primary" onClick={props.clearTodo}>
 				Clear Completed
 			</Button>
 		</div>
