@@ -1,0 +1,45 @@
+/* .color-primary-0 { color: #37276A }	
+.color-primary-1 { color: #B8B0D0 }
+.color-primary-2 { color: #6D55B7 }
+.color-primary-3 { color: #1D0C54 }
+.color-primary-4 { color: #0E0726 } */
+
+html {
+	background: #37276a;
+	color: #1d0c54;
+}
+
+.welcome {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+.App {
+	justify-content: center;
+	width: 50vw;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	margin-top: 200px;
+	background-color: #b8b0d0;
+}
+
+.todoList {
+	/* border: 1px solid red; */
+	margin-top: 40px;
+	font-size: 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.listItem {
+	/* border: 1px solid black; */
+	width: 300px;
+
+	background-color: #c6bddf;
+}
